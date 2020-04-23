@@ -12,9 +12,8 @@
 }
 
 .content {
-    display: flex;
-    flex-direction: column;
-    background-color: red;
+    display: ;
+    background-color: darkolivegreen;
     height: fit-content;
     width: fit-content;
 }

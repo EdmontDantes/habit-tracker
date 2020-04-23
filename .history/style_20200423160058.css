@@ -1,0 +1,11 @@
+#app {
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+}
+
+.add-tile {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: ;
+}

@@ -13,8 +13,8 @@
 
 .content {
     display: flex;
-    flex-direction: column;
-    background-color: red;
+    flex-direction: ;
+    background-color: darkolivegreen;
     height: fit-content;
     width: fit-content;
 }
