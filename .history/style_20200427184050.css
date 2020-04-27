@@ -13,21 +13,10 @@
 .add-tile {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-even;
     flex-wrap: wrap;
     background-color: blue;
 
-}
-
-.left-part {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-}
-
-.right-part {
-    display: flex;
-    flex-direction: column;
 }
 
 

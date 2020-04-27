@@ -22,12 +22,6 @@
 .left-part {
     display: flex;
     flex-direction: column;
-    justify-content: start;
-}
-
-.right-part {
-    display: flex;
-    flex-direction: column;
 }
 
 
