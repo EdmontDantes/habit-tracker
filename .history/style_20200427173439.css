@@ -12,21 +12,15 @@
 
 .add-tile {
     display: flex;
-    flex-direction: row;
-    /* justify-content: space-even; */
-    flex-wrap: wrap;
+    
     background-color: blue;
-
+    height: 20%;
 }
-
-.internal-add-tile-flex-row-1 {
-    display: flex;
-}
-
 
 .content {
     display: flex;
     flex-direction: column;
-    background-color: brown;
-    height: 100%;
+    background-color: red;
+    height: 90%;
+    
 }

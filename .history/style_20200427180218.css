@@ -13,7 +13,7 @@
 .add-tile {
     display: flex;
     flex-direction: row;
-    /* justify-content: space-even; */
+    justify-content: space-evenly;
     flex-wrap: wrap;
     background-color: blue;
 

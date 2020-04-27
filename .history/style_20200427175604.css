@@ -11,9 +11,9 @@
 }
 
 .add-tile {
-    display: flex;
-    flex-direction: row;
-    /* justify-content: space-even; */
+    display: grid;
+    
+    justify-content: center;
     flex-wrap: wrap;
     background-color: blue;
 

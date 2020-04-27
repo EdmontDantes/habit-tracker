@@ -1,32 +1,20 @@
-/* body {
-    background-color: red;
-
-} */
 #app {
     display: flex;
     flex-direction: column;
     background-color: aqua;
-    width: 100vw;
-    height: 100vh;
 }
 
 .add-tile {
     display: flex;
-    flex-direction: row;
-    /* justify-content: space-even; */
     flex-wrap: wrap;
     background-color: blue;
-
+    height: 200px;
 }
-
-.internal-add-tile-flex-row-1 {
-    display: flex;
-}
-
 
 .content {
     display: flex;
     flex-direction: column;
-    background-color: brown;
+    background-color: red;
     height: 100%;
+    
 }

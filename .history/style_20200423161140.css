@@ -1,0 +1,20 @@
+#app {
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+}
+
+.add-tile {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: blue;
+    height: 200px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    height: fit-content;
+    
+}
