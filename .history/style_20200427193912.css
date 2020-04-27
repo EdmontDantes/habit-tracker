@@ -18,14 +18,14 @@
 }
 
 button {
-    background-color: #E7BB41;
-    border: 1px solid black;
-    color: black;
+    background-color: #E7BB41
+    border: none;
+    color: #E7BB41;
     padding: 10px 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .left-part {

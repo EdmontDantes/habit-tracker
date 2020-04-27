@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Habit Tracker</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./style.css" type="text/css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div id="app">
+            <div class="add-tile">
+                <!-- <div class="internal-add-tile-flex-row-1">
+                </div> -->
+                <div class="left-part">
+                    <h3 id="add-tile-title">Add Habit</h3>
+                    <input type="text" class="new-habit-title" name="new-habit-title" placeholder="Habit Title">
+                </div>
+                <div class="right-part">
+                    <h4>Select Frequency</h4>
+                    <div class="choose-frequency">
+                        <img src="./assets/days_of_week/Daily-unchecked.png" id="Daily-Freq" alt="daily-frequency-choose" width="30">
+                        <img src="./assets/days_of_week/Monday-red.png" id="Monday-Freq" alt="Monday-frequency-choose" width="30">
+                        <img src="./assets/days_of_week/Tuesday-red.png" id="Tuesday-Freq" alt="Tuesday-frequency-choose" width="30">
+                        <img src="./assets/days_of_week/Wednesday-red.png" id="Wednesday-Freq" alt="Wednesday-frequency-choose" width="30">
+                        <img src="./assets/days_of_week/Thursday-red.png" id="Thursday-Freq" alt="Thursday-frequency-choose" width="30">
+                        <img src="./assets/days_of_week/Friday-red.png" id="Friday-Freq" alt="Friday-frequency-choose" width="30">
+                        <img src="./assets/days_of_week/Saturday-red.png" id="Saturday-Freq" alt="Saturday-frequency-choose" width="30">
+                        <img src="./assets/days_of_week/Sunday-red.png" id="Sunday-Freq" alt="Sunday-frequency-choose" width="30">
+                    </div>
+                    <button type="submit">Add Habit to track</button>
+                </div>
+            </div>
+            <div class="content">
+                <div class="display-content" id="habit-1">
+                    <div class="habit-title-display">
+                        <h3>Wake Up at 5AM</h3>
+                    </div>
+                    <div class="streak-dispay">
+                        <p idStreak: 1
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="backend.js"></script>
+        <script src="./main_dom.js"></script>
+    </body>
+</html>

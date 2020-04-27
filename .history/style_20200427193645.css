@@ -17,17 +17,6 @@
     
 }
 
-button {
-    background-color: #E7BB41;
-    border: 1px solid black;
-    color: black;
-    padding: 10px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 18px;
-}
-
 .left-part {
     display: flex;
     flex-direction: column;
@@ -45,7 +34,7 @@ button {
 .content {
     display: flex;
     flex-direction: column;
-    background-color: #44BBA4;
+    background-color: brown;
 
 }
 

@@ -5,27 +5,16 @@
 #app {
     display: flex;
     flex-direction: column;
-    background-color: #393E41;
+    background-color: aqua;
 
 }
 .add-tile {
     display: flex;
     flex-direction: row;
     justify-content: center ;
-    /* flex-wrap: wrap; */
-    background-color: #D3D0CB;
+    flex-wrap: wrap;
+    background-color: blue;
     
-}
-
-button {
-    background-color: #E7BB41;
-    border: 1px solid black;
-    color: black;
-    padding: 10px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 18px;
 }
 
 .left-part {
@@ -45,7 +34,7 @@ button {
 .content {
     display: flex;
     flex-direction: column;
-    background-color: #44BBA4;
+    background-color: brown;
 
 }
 

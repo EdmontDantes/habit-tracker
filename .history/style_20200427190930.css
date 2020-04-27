@@ -1,0 +1,48 @@
+/* body {
+    background-color: red;
+
+} */
+#app {
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    width: 100vw;
+    height: 100vh;
+}
+
+.add-tile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: blue;
+
+}
+
+.left-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.right-part {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    background-color: brown;
+    height: 100%;
+}
+
+.display-content {
+    display: flex;
+    flex-direction: column;
+    flex-direction: space-evenly;
+}
+

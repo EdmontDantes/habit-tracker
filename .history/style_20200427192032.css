@@ -5,33 +5,29 @@
 #app {
     display: flex;
     flex-direction: column;
-    background-color: #393E41;
+    background-color: aqua;
+    width: 100vw;
+    height: 100vh;
+}
 
+img {
+    height: 10%; 
+    width: 10%; 
+    object-fit: contain;
 }
 .add-tile {
     display: flex;
     flex-direction: row;
-    justify-content: center ;
-    /* flex-wrap: wrap; */
-    background-color: #D3D0CB;
-    
-}
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: blue;
 
-button {
-    background-color: #E7BB41;
-    border: 1px solid black;
-    color: black;
-    padding: 10px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 18px;
 }
 
 .left-part {
     display: flex;
     flex-direction: column;
-
+    justify-content: start;
 }
 
 .right-part {
@@ -45,24 +41,18 @@ button {
 .content {
     display: flex;
     flex-direction: column;
-    background-color: #44BBA4;
-
+    background-color: brown;
+    height: 100%;
 }
 
 .display-content {
     display: flex;
     flex-direction: column;
     flex-direction: space-evenly;
-    border: 3px solid black;
+    border: 1
 }
 
 .choose-days-completed {
     display: flex;
     flex-direction: row;
-}
-
-img {
-    height: 8%; 
-    width: 8%; 
-    object-fit: contain;
 }
