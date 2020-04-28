@@ -130,9 +130,9 @@ const createHabitHelper = function() {
     sundaySteak.addEventListener('click', function(event) {
         event.target.src = './assets/days_of_week/Sunday-green.png';
         const streakvalue = document.querySelector(`#streak-p-id-${numId}`)
-        if (pickFrequencyDropDownQuery.value === 'Daily' && streakvalue.innerText === 'Streak: 6') {
-            streakvalue.innerText = `Streak: 7`;
-        } else if (pickFrequencyDropDownQuery.value === 'Sunday') {
+        if (pickFrequencyDropDownQuery.value === 'Daily' && streakvalue.innerText === 'Streak: 1') {
+            streakvalue.innerText = `Streak: 2`;
+        } else if (pickFrequencyDropDownQuery.value === 'Tuesday') {
             streakvalue.innerText = 'Streak: 1';
         }
     })

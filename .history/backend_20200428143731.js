@@ -70,71 +70,34 @@ const createHabitHelper = function() {
         if (pickFrequencyDropDownQuery.value === 'Daily') {
             const streakvalue = document.querySelector(`#streak-p-id-${numId}`)
             streakvalue.innerText = `Streak: 1`
-        }else if(pickFrequencyDropDownQuery.value === 'Monday') {
-            const streakvalue = document.querySelector(`#streak-p-id-${numId}`)
-            streakvalue.innerText = `Streak: 1`
-
+        }
+        if (pickFrequencyDropDownQuery.value === 'Monday') {
+            
         }
     });
     const tuesdaySteak = document.querySelector(`#Tuesday-streak-${numId}`)
     tuesdaySteak.addEventListener('click', function(event) {
         event.target.src = './assets/days_of_week/Tuesday-green.png';
-        const streakvalue = document.querySelector(`#streak-p-id-${numId}`)
-        if (pickFrequencyDropDownQuery.value === 'Daily' && streakvalue.innerText === 'Streak: 1') {
-            streakvalue.innerText = `Streak: 2`;
-        } else if (pickFrequencyDropDownQuery.value === 'Tuesday') {
-            streakvalue.innerText = 'Streak: 1';
-        }
     });
     const wednesdaySteak = document.querySelector(`#Wednesday-streak-${numId}`)
     wednesdaySteak.addEventListener('click', function(event) {
         event.target.src = './assets/days_of_week/Wednesday-green.png';
-        const streakvalue = document.querySelector(`#streak-p-id-${numId}`)
-        if (pickFrequencyDropDownQuery.value === 'Daily' && streakvalue.innerText === 'Streak: 2') {
-            streakvalue.innerText = `Streak: 3`;
-        } else if (pickFrequencyDropDownQuery.value === 'Wednesday') {
-            streakvalue.innerText = 'Streak: 1';
-        }
     });
     const thursdaySteak = document.querySelector(`#Thursday-streak-${numId}`)
     thursdaySteak.addEventListener('click', function(event) {
         event.target.src = './assets/days_of_week/Thursday-green.png';
-        const streakvalue = document.querySelector(`#streak-p-id-${numId}`)
-        if (pickFrequencyDropDownQuery.value === 'Daily' && streakvalue.innerText === 'Streak: 3') {
-            streakvalue.innerText = `Streak: 4`;
-        } else if (pickFrequencyDropDownQuery.value === 'Thursday') {
-            streakvalue.innerText = 'Streak: 1';
-        }
     });
     const FridaySteak = document.querySelector(`#Friday-streak-${numId}`)
     FridaySteak.addEventListener('click', function(event) {
         event.target.src = './assets/days_of_week/Friday-green.png';
-        const streakvalue = document.querySelector(`#streak-p-id-${numId}`)
-        if (pickFrequencyDropDownQuery.value === 'Daily' && streakvalue.innerText === 'Streak: 4') {
-            streakvalue.innerText = `Streak: 5`;
-        } else if (pickFrequencyDropDownQuery.value === 'Friday') {
-            streakvalue.innerText = 'Streak: 1';
-        }
     });
     const saturdaySteak = document.querySelector(`#Saturday-streak-${numId}`)
     saturdaySteak.addEventListener('click', function(event) {
         event.target.src = './assets/days_of_week/Saturday-green.png';
-        const streakvalue = document.querySelector(`#streak-p-id-${numId}`)
-        if (pickFrequencyDropDownQuery.value === 'Daily' && streakvalue.innerText === 'Streak: 5') {
-            streakvalue.innerText = `Streak: 6`;
-        } else if (pickFrequencyDropDownQuery.value === 'Saturday') {
-            streakvalue.innerText = 'Streak: 1';
-        }
     });
     const sundaySteak = document.querySelector(`#Sunday-streak-${numId}`)
     sundaySteak.addEventListener('click', function(event) {
         event.target.src = './assets/days_of_week/Sunday-green.png';
-        const streakvalue = document.querySelector(`#streak-p-id-${numId}`)
-        if (pickFrequencyDropDownQuery.value === 'Daily' && streakvalue.innerText === 'Streak: 6') {
-            streakvalue.innerText = `Streak: 7`;
-        } else if (pickFrequencyDropDownQuery.value === 'Sunday') {
-            streakvalue.innerText = 'Streak: 1';
-        }
     })
 }
 
