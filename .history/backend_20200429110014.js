@@ -143,7 +143,6 @@ const createHabitHelper = function() {
     const currentDynamicContentTile = document.querySelector(`#additional-week-plus-id-${numId}`);
     const addExtraWeek = document.querySelector(`#additional-week-${numId}`) 
     addExtraWeek.addEventListener('click', function() {
-        
         const additionalWeek = document.createElement('div')
         additionalWeek.className = `additional-week-div-${numId + 1}`;
         additionalWeek.id = `additional-week-id-${numId + 1}`;

@@ -53,8 +53,7 @@ const createHabitHelper = function() {
     <img src="./assets/days_of_week/Saturday-red.png" id="Saturday-streak-${numId}" alt="Saturday-streak-choose">
     <img src="./assets/days_of_week/Sunday-red.png" id="Sunday-streak-${numId}" alt="Sunday-streak-choose">
     <img src="./assets/days_of_week/add-week.png" id="additional-week-${numId}" alt="add-week-bubble">
-</div>
-<div class="additional-week" id="additional-week-plus-id-${numId}"></div>`
+</div>`
     
     // const displayContentTitle = document.createElement('div');
     // displayContentTile.classList.add('habit-title-display');
@@ -140,10 +139,9 @@ const createHabitHelper = function() {
     })
 
 
-    const currentDynamicContentTile = document.querySelector(`#additional-week-plus-id-${numId}`);
+    const currentDynamicContentTile = document.querySelector(`#days-completed-id-${numId}`);
     const addExtraWeek = document.querySelector(`#additional-week-${numId}`) 
     addExtraWeek.addEventListener('click', function() {
-        
         const additionalWeek = document.createElement('div')
         additionalWeek.className = `additional-week-div-${numId + 1}`;
         additionalWeek.id = `additional-week-id-${numId + 1}`;
@@ -155,6 +153,7 @@ const createHabitHelper = function() {
         <img src="./assets/days_of_week/Friday-red.png" id="Friday-streak-${numId + 1}" alt="Friday-streak-choose">
         <img src="./assets/days_of_week/Saturday-red.png" id="Saturday-streak-${numId + 1}" alt="Saturday-streak-choose">
         <img src="./assets/days_of_week/Sunday-red.png" id="Sunday-streak-${numId + 1}" alt="Sunday-streak-choose">
+        <img src="./assets/days_of_week/add-week.png" id="additional-week-${numId + 1}" alt="add-week-bubble">
     </div>`
 
     currentDynamicContentTile.appendChild(additionalWeek);

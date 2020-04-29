@@ -53,8 +53,7 @@ const createHabitHelper = function() {
     <img src="./assets/days_of_week/Saturday-red.png" id="Saturday-streak-${numId}" alt="Saturday-streak-choose">
     <img src="./assets/days_of_week/Sunday-red.png" id="Sunday-streak-${numId}" alt="Sunday-streak-choose">
     <img src="./assets/days_of_week/add-week.png" id="additional-week-${numId}" alt="add-week-bubble">
-</div>
-<div class="additional-week" id="additional-week-plus-id-${numId}"></div>`
+</div>`
     
     // const displayContentTitle = document.createElement('div');
     // displayContentTile.classList.add('habit-title-display');
@@ -139,27 +138,22 @@ const createHabitHelper = function() {
         }
     })
 
-
-    const currentDynamicContentTile = document.querySelector(`#additional-week-plus-id-${numId}`);
     const addExtraWeek = document.querySelector(`#additional-week-${numId}`) 
-    addExtraWeek.addEventListener('click', function() {
-        
+    addExtraWeek.addEventListener('click', function(event) {
         const additionalWeek = document.createElement('div')
-        additionalWeek.className = `additional-week-div-${numId + 1}`;
-        additionalWeek.id = `additional-week-id-${numId + 1}`;
-        additionalWeek.innerHTML = `<div class="choose-days-completed" id="days-completed-id-${numId + 1}">
-        <img src="./assets/days_of_week/Monday-red.png" id="Monday-streak-${numId + 1}" alt="Monday-streak-choose">
-        <img src="./assets/days_of_week/Tuesday-red.png" id="Tuesday-streak-${numId + 1}" alt="Tuesday-streak-choose">
-        <img src="./assets/days_of_week/Wednesday-red.png" id="Wednesday-streak-${numId + 1}" alt="Wednesday-streak-choose">
-        <img src="./assets/days_of_week/Thursday-red.png" id="Thursday-streak-${numId + 1}" alt="Thursday-streak-choose">
-        <img src="./assets/days_of_week/Friday-red.png" id="Friday-streak-${numId + 1}" alt="Friday-streak-choose">
-        <img src="./assets/days_of_week/Saturday-red.png" id="Saturday-streak-${numId + 1}" alt="Saturday-streak-choose">
-        <img src="./assets/days_of_week/Sunday-red.png" id="Sunday-streak-${numId + 1}" alt="Sunday-streak-choose">
+        addExtraWeek.className = `additional-week-div-${numId + 1}`;
+        addExtraWeek.id = `additional-week-id-${numId + 1}`;
+        addExtraWeek.innerHTML = `<div class="choose-days-completed" id="days-completed-id-${numId}">
+        <img src="./assets/days_of_week/Monday-red.png" id="Monday-streak-${numId}" alt="Monday-streak-choose">
+        <img src="./assets/days_of_week/Tuesday-red.png" id="Tuesday-streak-${numId}" alt="Tuesday-streak-choose">
+        <img src="./assets/days_of_week/Wednesday-red.png" id="Wednesday-streak-${numId}" alt="Wednesday-streak-choose">
+        <img src="./assets/days_of_week/Thursday-red.png" id="Thursday-streak-${numId}" alt="Thursday-streak-choose">
+        <img src="./assets/days_of_week/Friday-red.png" id="Friday-streak-${numId}" alt="Friday-streak-choose">
+        <img src="./assets/days_of_week/Saturday-red.png" id="Saturday-streak-${numId}" alt="Saturday-streak-choose">
+        <img src="./assets/days_of_week/Sunday-red.png" id="Sunday-streak-${numId}" alt="Sunday-streak-choose">
+        <img src="./assets/days_of_week/add-week.png" id="additional-week-${numId}" alt="add-week-bubble">
     </div>`
-
-    currentDynamicContentTile.appendChild(additionalWeek);
-
-});
+}
 }
 
 addHabitButtonAddSectionQuery.addEventListener('click', createHabitHelper);
