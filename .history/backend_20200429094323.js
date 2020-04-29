@@ -138,12 +138,12 @@ const createHabitHelper = function() {
         }
     })
 
-//     const addExtraWeek = document.querySelector(`#additional-week-${numId}`) 
-//     addExtraWeek.addEventListener('click', function(event) {
-//         const additionalWeek = document.createElement('div')
-//         const numId
-//         addExtraWeek.className = 'aditional-week-'
-// }
+    const addExtraWeek = document.querySelector(`#additional-week-${numId}`) 
+    addExtraWeek.addEventListener('click', function(event) {
+        const additionalWeek = document.createElement('div')
+        const numId
+        addExtraWeek.className = 'aditional-week-'
+}
 }
 
 addHabitButtonAddSectionQuery.addEventListener('click', createHabitHelper);
