@@ -52,7 +52,7 @@ const createHabitHelper = function() {
     <img src="./assets/days_of_week/Friday-red.png" id="Friday-streak-${numId}" alt="Friday-streak-choose">
     <img src="./assets/days_of_week/Saturday-red.png" id="Saturday-streak-${numId}" alt="Saturday-streak-choose">
     <img src="./assets/days_of_week/Sunday-red.png" id="Sunday-streak-${numId}" alt="Sunday-streak-choose">
-    <img src="./assets/days_of_week/add-week.png" id="additional-week-${numId}" alt="add-week-bubble">
+    <img src="./assets/days_ id>
 </div>`
     
     // const displayContentTitle = document.createElement('div');
@@ -138,11 +138,7 @@ const createHabitHelper = function() {
         }
     })
 
-    const addExtraWeek = document.querySelector(`#additional-week-${numId}`) 
-    addExtraWeek.addEventListener('click', function(event) {
-        const additionalWeek = document.createElement('div')
-        const numId
-        addExtraWeek.className = 'aditional-week-'
+    const addExtra = document.querySelector
 }
 
 addHabitButtonAddSectionQuery.addEventListener('click', createHabitHelper);

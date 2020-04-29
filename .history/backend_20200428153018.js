@@ -52,7 +52,6 @@ const createHabitHelper = function() {
     <img src="./assets/days_of_week/Friday-red.png" id="Friday-streak-${numId}" alt="Friday-streak-choose">
     <img src="./assets/days_of_week/Saturday-red.png" id="Saturday-streak-${numId}" alt="Saturday-streak-choose">
     <img src="./assets/days_of_week/Sunday-red.png" id="Sunday-streak-${numId}" alt="Sunday-streak-choose">
-    <img src="./assets/days_of_week/add-week.png" id="additional-week-${numId}" alt="add-week-bubble">
 </div>`
     
     // const displayContentTitle = document.createElement('div');
@@ -70,10 +69,10 @@ const createHabitHelper = function() {
         event.target.src = './assets/days_of_week/Monday-green.png';
         if (pickFrequencyDropDownQuery.value === 'Daily') {
             const streakvalue = document.querySelector(`#streak-p-id-${numId}`)
-            streakvalue.innerText = `Streak: 1`;
+            streakvalue.innerText = `Streak: 1`
         }else if(pickFrequencyDropDownQuery.value === 'Monday') {
             const streakvalue = document.querySelector(`#streak-p-id-${numId}`)
-            streakvalue.innerText = `Streak: 1`;
+            streakvalue.innerText = `Streak: 1`
 
         }
     });
@@ -137,12 +136,6 @@ const createHabitHelper = function() {
             streakvalue.innerText = 'Streak: 1';
         }
     })
-
-    const addExtraWeek = document.querySelector(`#additional-week-${numId}`) 
-    addExtraWeek.addEventListener('click', function(event) {
-        const additionalWeek = document.createElement('div')
-        const numId
-        addExtraWeek.className = 'aditional-week-'
 }
 
 addHabitButtonAddSectionQuery.addEventListener('click', createHabitHelper);

@@ -140,9 +140,8 @@ const createHabitHelper = function() {
 
     const addExtraWeek = document.querySelector(`#additional-week-${numId}`) 
     addExtraWeek.addEventListener('click', function(event) {
-        const additionalWeek = document.createElement('div')
-        const numId
-        addExtraWeek.className = 'aditional-week-'
+        displayContentTileSquare.appendChild
+    });
 }
 
 addHabitButtonAddSectionQuery.addEventListener('click', createHabitHelper);
