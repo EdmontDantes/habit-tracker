@@ -150,5 +150,4 @@ const createHabitHelper = function() {
 });
 }
 
-//Button that runs helper function with all its quirks
 addHabitButtonAddSectionQuery.addEventListener('click', createHabitHelper);

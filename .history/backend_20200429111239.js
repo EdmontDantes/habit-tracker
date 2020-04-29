@@ -23,7 +23,6 @@ const createHabitHelper = function() {
 
     habitArray.push(habitObj);
 
-    //Dynamic creations of content happens here
     const displayContentTileSquare = document.createElement('div');
     displayContentTileSquare.classList.add('display-content');
     displayContentTileSquare.id = `habit-${numId}`;
@@ -58,9 +57,9 @@ const createHabitHelper = function() {
         }else if(pickFrequencyDropDownQuery.value === 'Monday') {
             const streakvalue = document.querySelector(`#streak-p-id-${numId}`)
             streakvalue.innerText = `Streak: 1`;
+
         }
     });
-
     const tuesdaySteak = document.querySelector(`#Tuesday-streak-${numId}`)
     tuesdaySteak.addEventListener('click', function(event) {
         event.target.src = './assets/days_of_week/Tuesday-green.png';
@@ -71,7 +70,6 @@ const createHabitHelper = function() {
             streakvalue.innerText = 'Streak: 1';
         }
     });
-
     const wednesdaySteak = document.querySelector(`#Wednesday-streak-${numId}`)
     wednesdaySteak.addEventListener('click', function(event) {
         event.target.src = './assets/days_of_week/Wednesday-green.png';
@@ -82,7 +80,7 @@ const createHabitHelper = function() {
             streakvalue.innerText = 'Streak: 1';
         }
     });
-
+    
     const thursdaySteak = document.querySelector(`#Thursday-streak-${numId}`)
     thursdaySteak.addEventListener('click', function(event) {
         event.target.src = './assets/days_of_week/Thursday-green.png';
@@ -150,5 +148,4 @@ const createHabitHelper = function() {
 });
 }
 
-//Button that runs helper function with all its quirks
 addHabitButtonAddSectionQuery.addEventListener('click', createHabitHelper);

@@ -23,7 +23,7 @@ const createHabitHelper = function() {
 
     habitArray.push(habitObj);
 
-    //Dynamic creations of content happens here
+    
     const displayContentTileSquare = document.createElement('div');
     displayContentTileSquare.classList.add('display-content');
     displayContentTileSquare.id = `habit-${numId}`;
@@ -150,5 +150,4 @@ const createHabitHelper = function() {
 });
 }
 
-//Button that runs helper function with all its quirks
 addHabitButtonAddSectionQuery.addEventListener('click', createHabitHelper);
