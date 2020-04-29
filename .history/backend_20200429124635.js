@@ -128,7 +128,7 @@ const createHabitHelper = function() {
         }
     })
 
-//The eventListeners end here for the first week , and additional week add feature starts here
+//The eventListeners end here for the first week , and additional week add
     const currentDynamicContentTile = document.querySelector(`#additional-week-plus-id-${numId}`);
     const addExtraWeek = document.querySelector(`#additional-week-${numId}`) 
     addExtraWeek.addEventListener('click', function() {

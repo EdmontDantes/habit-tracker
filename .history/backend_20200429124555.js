@@ -49,7 +49,7 @@ const createHabitHelper = function() {
     const contentQuery = document.querySelector('.content');
     contentQuery.appendChild(displayContentTileSquare);
     
-    //This is where streak updates up until Sunday constant
+    //This is where streak updates
     const mondaySteak = document.querySelector(`#Monday-streak-${numId}`)
     mondaySteak.addEventListener('click', function(event) {
         event.target.src = './assets/days_of_week/Monday-green.png';
@@ -128,7 +128,7 @@ const createHabitHelper = function() {
         }
     })
 
-//The eventListeners end here for the first week , and additional week add feature starts here
+
     const currentDynamicContentTile = document.querySelector(`#additional-week-plus-id-${numId}`);
     const addExtraWeek = document.querySelector(`#additional-week-${numId}`) 
     addExtraWeek.addEventListener('click', function() {
