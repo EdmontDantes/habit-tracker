@@ -142,7 +142,7 @@ const createHabitHelper = function() {
         <img src="./assets/days_of_week/Thursday-red.png" id="Thursday-streak-${numId++}" alt="Thursday-streak-choose">
         <img src="./assets/days_of_week/Friday-red.png" id="Friday-streak-${numId++}" alt="Friday-streak-choose">
         <img src="./assets/days_of_week/Saturday-red.png" id="Saturday-streak-${numId++}" alt="Saturday-streak-choose">
-        <img src="./assets/days_of_week/Sunday-red.png" id="Sunday-streak-${numId++}" alt="Sunday-streak-choose">
+        <img src="./assets/days_of_week/Sunday-red.png" id="Sunday-streak-${numId + 1}" alt="Sunday-streak-choose">
     </div>`
 
     currentDynamicContentTile.appendChild(additionalWeek);

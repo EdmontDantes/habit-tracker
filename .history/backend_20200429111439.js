@@ -133,22 +133,22 @@ const createHabitHelper = function() {
     addExtraWeek.addEventListener('click', function() {
         
         const additionalWeek = document.createElement('div')
-        additionalWeek.className = `additional-week-div-${numId++}`;
-        additionalWeek.id = `additional-week-id-${numId++}`;
-        additionalWeek.innerHTML = `<div class="choose-days-completed" id="days-completed-id-${numId++}">
-        <img src="./assets/days_of_week/Monday-red.png" id="Monday-streak-${numId++}" alt="Monday-streak-choose">
-        <img src="./assets/days_of_week/Tuesday-red.png" id="Tuesday-streak-${numId++}" alt="Tuesday-streak-choose">
-        <img src="./assets/days_of_week/Wednesday-red.png" id="Wednesday-streak-${numId++}" alt="Wednesday-streak-choose">
-        <img src="./assets/days_of_week/Thursday-red.png" id="Thursday-streak-${numId++}" alt="Thursday-streak-choose">
-        <img src="./assets/days_of_week/Friday-red.png" id="Friday-streak-${numId++}" alt="Friday-streak-choose">
-        <img src="./assets/days_of_week/Saturday-red.png" id="Saturday-streak-${numId++}" alt="Saturday-streak-choose">
-        <img src="./assets/days_of_week/Sunday-red.png" id="Sunday-streak-${numId++}" alt="Sunday-streak-choose">
+        additionalWeek.className = `additional-week-div-${numId + 1}`;
+        additionalWeek.id = `additional-week-id-${numId + 1}`;
+        additionalWeek.innerHTML = `<div class="choose-days-completed" id="days-completed-id-${numId + 1}">
+        <img src="./assets/days_of_week/Monday-red.png" id="Monday-streak-${numId + 1}" alt="Monday-streak-choose">
+        <img src="./assets/days_of_week/Tuesday-red.png" id="Tuesday-streak-${numId + 1}" alt="Tuesday-streak-choose">
+        <img src="./assets/days_of_week/Wednesday-red.png" id="Wednesday-streak-${numId + 1}" alt="Wednesday-streak-choose">
+        <img src="./assets/days_of_week/Thursday-red.png" id="Thursday-streak-${numId + 1}" alt="Thursday-streak-choose">
+        <img src="./assets/days_of_week/Friday-red.png" id="Friday-streak-${numId + 1}" alt="Friday-streak-choose">
+        <img src="./assets/days_of_week/Saturday-red.png" id="Saturday-streak-${numId + 1}" alt="Saturday-streak-choose">
+        <img src="./assets/days_of_week/Sunday-red.png" id="Sunday-streak-${numId + 1}" alt="Sunday-streak-choose">
     </div>`
 
     currentDynamicContentTile.appendChild(additionalWeek);
 
 });
-//end of huge helper function
+//end of 
 }
 
 //Button that runs helper function with all its quirks
