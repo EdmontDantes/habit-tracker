@@ -145,17 +145,7 @@ const createHabitHelper = function() {
         <img src="./assets/days_of_week/Sunday-red.png" id="new-Sunday-streak-${numId}" alt="Sunday-streak-choose">
     </div>`
 
-    // const newMondayStreak = document.querySelector(`#new-Monday-streak-${numId}`);
-    // newMondayStreak.addEventListener('click', function(event) {
-    //     event.target.src = './assets/days_of_week/Monday-green.png';
-    //     if (pickFrequencyDropDownQuery.value === 'Daily') {
-    //         const streakvalue = document.querySelector(`#streak-p-id-${numId}`)
-    //         streakvalue.innerText = `Streak: 8`;
-    //     }else if(pickFrequencyDropDownQuery.value === 'Monday') {
-    //         const streakvalue = document.querySelector(`#streak-p-id-${numId}`)
-    //         streakvalue.innerText = `Streak: 2`;
-    //     }
-    // })
+    
 
     currentDynamicContentTile.appendChild(additionalWeek);
 

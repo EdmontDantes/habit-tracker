@@ -136,26 +136,14 @@ const createHabitHelper = function() {
         additionalWeek.className = `additional-week-div-${numId}`;
         additionalWeek.id = `additional-week-id-${numId}`;
         additionalWeek.innerHTML = `<div class="choose-days-completed" id="new-days-completed-id-${numId}">
-        <img src="./assets/days_of_week/Monday-red.png" id="new-Monday-streak-${numId}" alt="Monday-streak-choose">
-        <img src="./assets/days_of_week/Tuesday-red.png" id="new-Tuesday-streak-${numId}" alt="Tuesday-streak-choose">
-        <img src="./assets/days_of_week/Wednesday-red.png" id="new-Wednesday-streak-${numId}" alt="Wednesday-streak-choose">
-        <img src="./assets/days_of_week/Thursday-red.png" id="new-Thursday-streak-${numId}" alt="Thursday-streak-choose">
-        <img src="./assets/days_of_week/Friday-red.png" id="new-Friday-streak-${numId}" alt="Friday-streak-choose">
-        <img src="./assets/days_of_week/Saturday-red.png" id="new-Saturday-streak-${numId}" alt="Saturday-streak-choose">
-        <img src="./assets/days_of_week/Sunday-red.png" id="new-Sunday-streak-${numId}" alt="Sunday-streak-choose">
+        <img src="./assets/days_of_week/Monday-red.png" id="new-Monday-streak-${numId++}" alt="Monday-streak-choose">
+        <img src="./assets/days_of_week/Tuesday-red.png" id="new-Tuesday-streak-${numId++}" alt="Tuesday-streak-choose">
+        <img src="./assets/days_of_week/Wednesday-red.png" id="new-Wednesday-streak-${numId++}" alt="Wednesday-streak-choose">
+        <img src="./assets/days_of_week/Thursday-red.png" id="new-Thursday-streak-${numId++}" alt="Thursday-streak-choose">
+        <img src="./assets/days_of_week/Friday-red.png" id="Friday-streak-${numId++}" alt="Friday-streak-choose">
+        <img src="./assets/days_of_week/Saturday-red.png" id="Saturday-streak-${numId++}" alt="Saturday-streak-choose">
+        <img src="./assets/days_of_week/Sunday-red.png" id="Sunday-streak-${numId++}" alt="Sunday-streak-choose">
     </div>`
-
-    // const newMondayStreak = document.querySelector(`#new-Monday-streak-${numId}`);
-    // newMondayStreak.addEventListener('click', function(event) {
-    //     event.target.src = './assets/days_of_week/Monday-green.png';
-    //     if (pickFrequencyDropDownQuery.value === 'Daily') {
-    //         const streakvalue = document.querySelector(`#streak-p-id-${numId}`)
-    //         streakvalue.innerText = `Streak: 8`;
-    //     }else if(pickFrequencyDropDownQuery.value === 'Monday') {
-    //         const streakvalue = document.querySelector(`#streak-p-id-${numId}`)
-    //         streakvalue.innerText = `Streak: 2`;
-    //     }
-    // })
 
     currentDynamicContentTile.appendChild(additionalWeek);
 
